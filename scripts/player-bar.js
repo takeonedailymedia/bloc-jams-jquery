@@ -1,6 +1,6 @@
 {
   $('button#play-pause').on('click', function() {
-    player.playpause();
+    player.playPause();
     $(this).attr('playState', player.playState);
   });
 
